@@ -8,4 +8,4 @@ dependencies:
 
 ubuntu:
   override:
-    - echo "i wish there were ubuntu here."
+    - echo "welcome to ubuntu"
