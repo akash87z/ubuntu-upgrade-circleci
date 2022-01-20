@@ -1,0 +1,11 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+  override:
+    - docker build -t testing .
+
+test:
+  override:
+    - echo "i wish there were tests here."
