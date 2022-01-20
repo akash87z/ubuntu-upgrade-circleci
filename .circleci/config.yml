@@ -4,8 +4,8 @@ machine:
 
 dependencies:
   override:
-    - docker build -t testing .
+    - docker build -t ubuntu .
 
-test:
+ubuntu:
   override:
-    - echo "i wish there were tests here."
+    - echo "i wish there were ubuntu here."
